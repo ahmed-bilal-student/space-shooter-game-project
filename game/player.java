@@ -1,9 +1,9 @@
-class player {
+class GamePlayer {
     private int x, y;
     private int speed = 1;
     private int maxWidth, maxHeight;
 
-    public player(int startX, int startY, int maxWidth, int maxHeight) {
+    public GamePlayer(int startX, int startY, int maxWidth, int maxHeight) {
         this.x = startX;
         this.y = startY;
         this.maxWidth = maxWidth;
@@ -46,5 +46,8 @@ class player {
         return "Player at (" + x + ", " + y + ")";
     }
 }
+
+
+
 
 
